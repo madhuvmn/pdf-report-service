@@ -22,8 +22,8 @@ def generate_pdf():
 
     table_data = [
         ["ID", "Name", "Amount"],
-        ["1", "Madhu", "5000"],
-        ["2", "Anil", "4200"]
+        ["1", "వెలినేని. మధుసూదన్", "5000"],
+        ["2", "వడ్లమాని. మధు బాబు", "4200"]
     ]
 
     elements.append(Table(table_data))
@@ -40,3 +40,4 @@ def generate_pdf():
 
 if __name__ == "__main__":
     app.run()
+
